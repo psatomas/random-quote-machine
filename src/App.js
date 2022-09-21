@@ -8,9 +8,9 @@ import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
 let quoteDBUrl = "https://gist.githubusercontent.com/camperbot/5a022b72e96c4c9585c32bf6a75f62d9/raw/e3c6895ce42069f0ee7e991229064f167fe8ccdc/quotes.json"
 
 function App() {
-  const [quote, setQuote] = useState("there is no better than here when your ther becames here another there appears")
-  const [author, setAuthor] = useState("Paulo coelho")
-  const [, setRandomNumber] = useState (0)
+  const [quote, setQuote] = useState("The journey of a thousand miles begins with one step.")
+  const [author, setAuthor] = useState("Lao Tzu")
+  const [randoNumber, setRandomNumber] = useState (0)
   const [quotesArray, setQuotesArray] = useState(null)
   const [accentColor, setAccentColor] = useState('#282c34')
 
